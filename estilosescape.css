@@ -1,0 +1,100 @@
+header h1{
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    border-radius: 100px;
+}
+
+.fs b{
+    background-color: rgb(255, 136, 0);
+    border: 2px solid;
+    color: white;
+    -webkit-text-stroke: 0.5px black;
+    border-radius: 5px;
+}
+
+body {
+    background: rgb(145,247,148);
+    background: linear-gradient(45deg, rgba(145,247,148,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+img{
+    height: 150px;
+    border: 2px solid;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+td p{
+    text-align: center;
+    border: 2px solid;
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav li{
+    display: inline-block;
+    border:1px solid;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 0);
+    position: relative;
+    padding-left: 38px;
+    padding-right: 38px;
+    background-color: aliceblue;
+}
+
+#naveg{
+    border:2px solid;
+    background: rgb(116,149,167);
+    background: linear-gradient(131deg, rgba(116,149,167,1) 0%, rgba(69,63,167,1) 0%, rgba(113,186,83,1) 50%, rgba(187,126,73,1) 100%);
+    position:relative;
+}
+
+aside{
+    margin-top: 5px;
+    width: 25%;
+    float: right;
+    background: rgb(116,149,167);
+    background: linear-gradient(131deg, rgba(116,149,167,1) 0%, rgba(70,63,167,1) 0%, rgba(113,186,83,1) 100%, rgba(187,126,73,1) 100%);
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-bottom: 47%;
+    border: 2px solid;
+}
+
+footer{
+    width: 100%;
+    border: 2px solid;
+    position: relative;
+    background: rgb(116,149,167);
+    background: linear-gradient(131deg, rgba(116,149,167,1) 0%, rgba(69,63,167,1) 0%, rgba(113,186,83,1) 50%, rgba(187,126,73,1) 100%);
+    margin-bottom: 1px;
+}
+
+main {
+    padding-bottom:22%;
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.parr1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+aside h4{
+    text-decoration: underline;
+    color: aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#izquierda{
+    float: left;
+    margin-right: 15px;
+}

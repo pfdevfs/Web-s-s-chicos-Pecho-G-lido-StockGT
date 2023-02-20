@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilosForm.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="mainCont">
+        <h1>Sorteo Bugatti Chiron</h1>
+    <form action="index.html" method="post">
+        Nombre: 
+        <br>
+        <input type="text" id="nombre" name="nombre" placeholder="Campo necesario">
+        <br>
+        <br>
+        Apellido:
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Campo necesario">
+        <br>
+        <br>
+        Email:
+        <br>
+        <input type="text" id="mail" name="mail" placeholder="Campo necesario">
+        <br>
+        <br>
+        Género:
+        <input type="radio" name="genero" value="masc"> Masculino
+        <input type="radio" name="genero" value="fem"> Femenino
+        <input type="radio" name="genero" value="nonbi"> No Binario
+        <br>
+        <br>
+        Idioma:
+        <select id="idioma" name="idioma" >
+            <option value="CAS">Castellano</option>
+            <option value="ENG">Inglés</option>
+        </select>
+        <br>
+        <br>
+        <input id="datos" type="checkbox" value="choice"> Autorización por si algún día Dios no está contigo dentro del coche
+        <br>
+        <br>
+        <textarea name="" id="" cols="50" rows="10" readonly>
+Soy lo suficienemente maduro como para entender que si gano este sorteo, estaré otorgando una máquina capaz de batir los 400km/h , un 0-100km/h en 2,4s y 1.500 caballos de potencia.
+La empresa StockGT no se hace responsable de cualquier accidente que el ganador del sorteo pueda tener.
+Como mensaje reconfortante, si mueres, será una muerte a la velocidad de la luz y literalmente tu cuerpo volará como 100m sobre la luna delantera.
+        </textarea>
+        <br>
+        <br>
+        
+        <input type="submit" id="acceso" value="Acceso" class="botton" style="text-align: center;" onclick="return validarReg()">
+        <input type="reset" value="Cancelar" class="botton" style="text-align: center;">
+        <p id="error" style="color: rgb(236, 14, 14); font-family: Arial, Helvetica, sans-serif;"></p>
+    </form>
+</div>
+</body>
+</html>
